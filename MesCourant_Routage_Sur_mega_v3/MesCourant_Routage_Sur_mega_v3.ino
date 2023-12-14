@@ -42,7 +42,7 @@ RunningAverage IZOE(5);
 rgb_lcd lcd;
 
 const int cons = 5;
-const int tempo = 500;
+const int tempo = 2000;
 const int bouton_defil = 13;    // bouton sur entree num 13
 //const int bouton_defil = 12;    // bouton sur entree num 12
 const int led_ch_eau=6;
@@ -94,13 +94,13 @@ lcd.begin(16, 2);
 lcd.setCursor(0, 0);
 lcd.print("Mesure Routeur ");
 lcd.setCursor(0, 1);
-lcd.print("Version test pot");
+lcd.print("Version 3");
 delay(tempo);
 lcd.clear();
 lcd.setCursor(0, 0);
-lcd.print("02 dec 2023     ");
+lcd.print("14 dec 2023     ");
 lcd.setCursor(0, 1);
-lcd.print("MRV test MEGA");
+lcd.print("MRV3 sur MEGA");
 delay(tempo);
 lcd.clear();
 lcd.setCursor(0, 0);
@@ -138,7 +138,8 @@ light2.setBrightness(com_varia2);
 
 void loop() 
 {
-  //pot = analogRead(A8)/100;  // pour les tests avec potentiometre
+
+//pot = analogRead(A8)/100;  // pour les tests avec potentiometre
 
 // Sur les entrées A0 et A1 mesure courant général et tension secteur  Production tension courant et puissances
 //-------------------------------------------------------------------------------------------------------------------------
