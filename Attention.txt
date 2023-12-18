@@ -3,10 +3,7 @@ Pour utiliser les programmes de controle Dimmable Light For Arduino
 Commenter la ligne par //
 // const std::nothrow_t std::nothrow = { };
 Dans
-sudo gedit /home/wilfried/Arduino/libraries/ArduinoSTL/src/new_handler.cpp
+sudo gedit /home/<nomsystem>/Arduino/libraries/ArduinoSTL/src/new_handler.cpp
 
 Voir forum
 https://github.com/mike-matera/ArduinoSTL/issues/84
-
-___________________________________________________________________________
-
