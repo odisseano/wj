@@ -102,7 +102,7 @@ lcd.print("MRV5 sur MEGA");
 delay(tempo);
 lcd.clear();
 lcd.setCursor(0, 0);
-lcd.print("Jarry Wilfried  ");
+lcd.print("yoyo  ");
 lcd.setCursor(0, 1);
 lcd.print("odisseano@gmail ");
 delay(tempo);
